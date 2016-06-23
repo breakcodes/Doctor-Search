@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<!-- This is the homepage for the app-->
+ <html lang='en'>
+<head>
+<title>Practo</title>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/style.css'/>
+</head>
+
+<body>
+<div class='row'>
+	<div class='header'>
+		<div class='col-lg-4 col-md-4 col-xs-4 col-xm-4'>
+            <img class='image-header' src='images/practo-logo.png' alt='Google'>
+  	    </div>
+	</div>
+</div>
+
+<hr class='line-break'>
+
+<h1><center>Find and Book</center></h1>
+
+<div id='details-box' class='input-group input-group-sm'>
+    <div class='row'>
+        <input type='text' class='form-control' placeholder='What Speciality you looking for?' id='specialization' style='width:55%' />
+        <input type='text' class='form-control' placeholder='City' id='locality' style='width:35%'/>
+        <button id='search-button' type='button' class='btn btn-default' style='width:10%'>
+        <span class='glyphicon glyphicon-search' ></span></button>
+    </div>
+</div>
+
+<div id='card'> </div>
+
+<div class='row'>
+  <ul class='pager'>
+    <li><a id='previous'>Previous</a></li>
+    <li><a id='next'>Next</a></li>
+  </ul>
+</div>
+
+</body>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js'></script>
+    <script type='text/javascript' src='javascript/search.js'></script>
+</html>
